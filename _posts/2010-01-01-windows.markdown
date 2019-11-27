@@ -7,7 +7,10 @@ categories:
 
 # Windows
 
-Historically, installing Python on a Windows computer was a real challenge, but as of May 2019 that's all changed! Microsoft now hosts a community release of Python 3 in the Microsoft Store for computers Windows 10, the latest version of the operating system. This is now the recommended way to install Python and is far easier than previous approaches!
+Microsoft hosts a community release of Python 3 in the Microsoft Store for computers running Windows 10+, the latest version of the operating system. This is now the recommended way to install Python: it handles auto-updates, can be uninstalled easily, and does not update PATH variables in a way that breaks other applications.
+
+By contrast, if you [download Python directly](https://www.python.org/downloads/) from the official Python website, the PATH configuration is complicated to manage and may break other applications.
+
 
 ## Upgrading Windows 10
 
