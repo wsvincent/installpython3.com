@@ -9,7 +9,7 @@ categories:
 
 Historically MacOS came preinstalled with Python 2, however starting with [Mac 10.15](https://developer.apple.com/documentation/macos_release_notes/macos_catalina_10_15_beta_10_release_notes) (*released in October 2019*) this is no longer the case. And since [Python 2 will no longer be officially supported](https://www.python.org/dev/peps/pep-0373/) as of January 1, 2020, you should really use Python 3 instead.
 
-There are multiple ways to install Python 3 on a MacOS computer. The official Python website even recommends [downloading it directly](https://www.python.org/downloads/), however this approach can cause confusion around PATH variables, updates, and uninstalls. A better approach, in my opinion, is to instead use the popular package manager [HomeBrew](https://brew.sh) which automates updates and juggling multiple versions of Python on a computer. 
+There are multiple ways to install Python 3 on a MacOS computer. The official Python website even recommends [downloading it directly](https://www.python.org/downloads/), however this approach can cause confusion around PATH variables, updates, and uninstalls. A better approach, in my opinion, is to instead use the popular package manager [Homebrew](https://brew.sh) which automates updates and juggling multiple versions of Python on a computer. 
 
 ## Is Python 3 already installed?
 
@@ -34,7 +34,7 @@ Python 3.6.8
 
 ## Install XCode
 
-The first step for Python 3 is to install Apple's [Xcode](https://developer.apple.com/xcode/) program which is necessary for iOS development as well as most programming tasks. We will use XCode to install HomeBrew.
+The first step for Python 3 is to install Apple's [Xcode](https://developer.apple.com/xcode/) program which is necessary for iOS development as well as most programming tasks. We will use XCode to install Homebrew.
 
 In your **Terminal** app, run the following command to install XCode and its command-line tools:
 
@@ -44,15 +44,15 @@ $ xcode-select --install
 
 It is a large program so this make take a while to download. Make sure to click through all the confirmation prompts XCode requires.
 
-## Install HomewBrew
+## Install Homebrew
 
-Next install HomeBrew by copy/pasting the following command into **Terminal** and then type **Enter**:
+Next install Homebrew by copy/pasting the following command into **Terminal** and then type **Enter**:
 
 ```
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-To confirm HomeBrew installed correctly, run this command:
+To confirm Homebrew installed correctly, run this command:
 
 ```
 $ brew doctor
@@ -109,7 +109,7 @@ Confusingly, there are multiple tools for virtual environments in Python:
 * [virtualenv](https://virtualenv.pypa.io/en/stable/) must be installed separately but supports Python 2.7+ and Python 3.3+
 * [Pipenv](https://github.com/pypa/pipenv) is a higher-level tool that automatically manages a separate virtual environment for each project
 
-On MacOS we can install Pipenv with HomeBrew.
+On MacOS we can install Pipenv with Homebrew.
 
 ```
 $ brew install pipenv
