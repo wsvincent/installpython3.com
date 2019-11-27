@@ -1,0 +1,34 @@
+title: InstallPython3.com
+email:
+description: >- # this means to ignore newlines until "baseurl:"
+  How to install Python 3 on Windows, Mac, Linux, or Chromebook computers.
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'https://installpython3.com'
+
+# Build settings
+markdown: kramdown
+# theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "page"
+      permalink: ":title/"
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

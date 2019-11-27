@@ -1,0 +1,143 @@
+---
+layout: page
+title:  "Mac"
+date:   2019-08-06 08:53:27 -0500
+categories:
+---
+
+# Install Python 3 on MacOS
+
+This short guide demonstrates how to install the latest version of Python 3 on a MacOS computer.
+
+Historically MacOS came preinstalled with Python 2, however starting with [Mac 10.15](https://developer.apple.com/documentation/macos_release_notes/macos_catalina_10_15_beta_10_release_notes) (*released in October 2019*) this is no longer the case. And since [Python 2 will no longer be officially supported](https://www.python.org/dev/peps/pep-0373/) as of January 1, 2020, you should really use Python 3 instead.
+
+There are multiple ways to install Python 3 but the easiest--and most popular--approach is to use the package manager [HomeBrew](https://brew.sh).
+
+## Is Python 3 already installed?
+
+Before we start, make sure Python 3 isn't already installed on your computer. Open up the command line via the [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)) application which is located at `Applications -> Utilities -> Terminal`.
+
+Then type the command `python --version` followed by the **Enter** key.
+
+```
+$ python --version
+Python 2.7.17
+```
+
+This is the currently installed version of Python on your Mac.
+
+## Install XCode
+
+The first step for Python 3 is to install Apple's [Xcode](https://developer.apple.com/xcode/) program which is necessary for iOS development as well as most programming tasks. We will use XCode to install HomeBrew.
+
+In your **Terminal** app, run the following command to install XCode and its command-line tools:
+
+```
+$ xcode-select --install
+```
+
+It is a large program so this make take a while to download. Make sure to click through all the confirmation prompts XCode requires.
+
+## Install HomewBrew
+
+Next install HomeBrew by copy/pasting the following command into **Terminal** and then type **Enter**:
+
+```
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+To confirm HomeBrew installed correctly, run this command:
+
+```
+$ brew doctor
+Your system is ready to brew.
+```
+
+## Install Python 3
+
+Now we can install the latest version of Python 3. Type the following command into **Terminal** and press **Enter**:
+
+```
+$ brew install python3
+```
+
+To confirm which version of Python 3 was installed, run the following command in **Terminal**:
+
+```
+$ python3 --version
+Python 3.7.5
+```
+
+Finally, to run our new version of Python 3 open an interactive shall by typing `python3` within **Terminal**:
+
+```
+$ python3
+Python 3.7.5 (default, Nov  1 2019, 02:16:23)
+[Clang 11.0.0 (clang-1100.0.33.8)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+
+To exit the Python 3 interactive shell, you can type either `exit()` and then **Return** or type `Control+d` which means hold both the **Control** and **D** keys at the same time.
+
+Note that it is still possible to run Python 2 by simply typing `python`:
+
+```
+$ python
+Python 2.7.17 (default, Oct 24 2019, 12:57:38)
+[GCC 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.8)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+
+## Virtual Environments
+
+By default, Python packages are installed globally on your computer in a single directory. This can cause major problems when working on multiple Python projects!
+
+For example, image you have *Project A* that relies upon Django 1.11 whereas *Project B* uses Django 2.2. If you naively installed Django on your computer, only the latest install would be present and available in that single directory. Then consider that most Python projects rely on multiple packages that each have their own version numbers. There's simply no way to keep everything straight and not inadvertently break things with the wrong package versions.
+
+The solution is to use a **virtual environment** for each project, an isolated directory, rather than installing Python packages globally.
+
+Confusingly, there are multiple tools for virtual environments in Python:
+* [venv](https://docs.python.org/3/library/venv.html) is available by default on Python 3.3+
+* [virtualenv](https://virtualenv.pypa.io/en/stable/) must be installed separately but supports Python 2.7+ and Python 3.3+
+* [Pipenv](https://github.com/pypa/pipenv) is a higher-level tool that automatically manages a separate virtual environment for each project
+
+On MacOS we can install Pipenv with HomeBrew.
+
+```
+$ brew install pipenv
+```
+
+Then use Pipenv for any Python packages you wish to install. For example, if you want to work with Django 2.2.6, first create a dedicated directory for it on your computer such as in a `django` directory on your Desktop.
+
+```
+$ cd ~/Desktop
+$ mkdir django
+$ cd django
+```
+
+Then install Django within that directory.
+
+```
+$ pipenv install django==2.2.7
+```
+
+If you look within the directory there are now two new files, `Pipfile` and `Pipfile.lock`, which Pipenv uses. To activate the virtual environment type `pipenv shell`.
+
+```
+$ pipenv shell
+(django) $
+```
+
+There will now be parentheses around the name of your current directory which indicates the virtual environment is activate. To exit the virtual environment, type `exit`.
+
+```
+(django) $ exit
+$
+```
+
+The lack of parentheses confirms the virtual environment is no longer active.
+
+## Next Steps
+If you'd like to learn more about Python, the book [Python Crash Course](https://amzn.to/2okggMH) is a great resource. Or if you'd like to learn web development with Python, check out [Django for Beginners](https://djangoforbeginners.com).

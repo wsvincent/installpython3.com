@@ -1,0 +1,32 @@
+layout: page
+title:  "Virtual Environments"
+date:   2019-08-06 08:53:27 -0500
+categories:
+---
+
+### Virtual Environments
+
+By default, Python packages are installed globally on your computer in a single directory which can cause major problems when working on multiple Python projects.
+
+For example, image you have a *Project A* that relies upon Django 1.11 whereas *Project B* uses Django 2.2. If you naively installed Django on your computer, only the latest install would be present and available in that single directory. Then consider that most Python projects rely on multiple packages that each have their own version numbers. There's simply no way to keep everything straight and consistent.
+
+The solution is to use a virtual environment, an isolated directory for each Python project rather than installing packages globally.
+
+Historically there were multiple tools available for virtual environments, but for
+
+
+
+ both would be stored in the same location which leads to unintentionally upgrading packages. It
+
+
+There is a major problem when working with Python: by default, Python itself and related third-party Python packages will be installed globally on your computer.
+
+
+
+every project will attempt to use the same local directory to access Python itself and any related third-party Python packages.
+
+For example, HomeBrew installs Python in the directory `/usr/local/Frameworks/Python.framework/Versions`. What happens if Project A needs to use Python 2.7 while Project B relies upon Python 3.7? Your computer will look *in the same directory* for different versions of Python. And to further compound the issue, each project likely uses multiple third-party packages which also have their own version numbers.
+
+The solution is to create a separate virtual environment for each Python project, thereby isolating Python versions and dependencies to avoid such conflicts.
+
+The confusing thing is that there are multiple ways to install and use virtual environments!

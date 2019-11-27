@@ -1,0 +1,27 @@
+// $base-font-family: "Concourse_T3";
+// $base-font-family-serif: "Equity";
+// $base-font-family-sans-serif: "Concourse_T3";
+// $base-font-family-code: "Triplicate";
+//
+// $text-color:       #3c3c3c;
+// $background-color: #fff;
+// $brand-color:      #2a7ae2;
+//
+// $grey-color:       #828282 !default;
+// $grey-color-light: lighten($grey-color, 40%) !default;
+// $grey-color-dark:  darken($grey-color, 25%) !default;
+
+// // Width of the content area
+// $on-laptop:        800px !default;
+//
+// @mixin media-query($device) {
+//   @media screen and (min-width: $device) {
+//     @content;
+//   }
+// }
+
+// Import partials.
+@import
+  "base",
+  "syntax"
+;

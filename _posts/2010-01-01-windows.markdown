@@ -1,0 +1,78 @@
+---
+layout: page
+title:  "Windows"
+date:   2019-08-06 08:53:27 -0500
+categories:
+---
+
+# Windows
+
+Historically, installing Python on a Windows computer was a real challenge, but as of May 2019 that's all changed! Microsoft now hosts a community release of Python 3 in the Microsoft Store for computers Windows 10, the latest version of the operating system. This is now the recommended way to install Python and is far easier than previous approaches!
+
+## Upgrading Windows 10
+
+The first step is to confirm your computer is running Windows 10. To check, click the Start icon in the lower left corner of your screen, then on the gear icon (Settings).
+
+<img class="img-fluid" src="{{ site.url }}/assets/images/windows/start_icon.png" alt="Start Icon">
+
+Now click on "Update & Security".
+
+<img class="img-fluid" src="{{ site.url }}/assets/images/windows/update_security.png" alt="Update & Security">
+
+Then on the right panel, scroll down to "OS build info." Under "Windows Specifications" you can confirm you're on Windows 10.
+
+<img class="img-fluid" src="{{ site.url }}/assets/images/windows/windows_spec.png" alt="Windows Specification">
+
+If you're not on the latest version of Windows 10, click the back arrow to "Update & Security" and "Check for Updates."
+
+<img class="img-fluid" src="{{ site.url }}/assets/images/windows/windows_update.png" alt="Windows Update">
+
+When complete, check the OS version again as described at the top of this page and ensure it is 18362.145 or higher.
+
+## Python App in the Microsoft Store
+
+Now that you're using Windows 10 navigate to the Microsoft Store. In the search bar type "Microsoft Store" and it should be the top result.
+
+<img class="img-fluid" src="{{ site.url }}/assets/images/windows/store.png" alt="Microsoft Store">
+
+The Microsoft Store window will pop up. Click "Search" and then "Python." The top results should be "Python 3.7" and "Python 3.8." We will install the latest version in this tutorial: Python 3.8.
+
+<img class="img-fluid" src="{{ site.url }}/assets/images/windows/python38.png" alt="Python 3.8 Download">
+
+The app is free. Click the "Get" button.
+
+<img class="img-fluid" src="{{ site.url }}/assets/images/windows/get.png" alt="Python 3.8 Get Button">
+
+**Note**: If you have a "See System Requirements" link below the Get button it's likely you need to upgrade to Windows 10. And if you're not logged into your Microsoft account, there will be a prompt asking if you want to sign in. It's fine to say "No, thanks" for now.
+
+
+## Using Python
+
+There are two ways to access Python now: via the command line or IDLE. The command line app in Windows is called *PowerShell*. We can open it by typing "PowerShell" in the Start Menu in the lower left corner.
+
+<img class="img-fluid" src="{{ site.url }}/assets/images/windows/start_menu_powershell.png" alt="Powershell Link">
+
+Once open, type `Python --version` to confirm Python 3.8 is installed.
+
+```
+$ Python --version
+Python 3.8.0
+```
+
+And then type `python` and **Return** to open the command line Python shell.
+
+```
+$ python
+Python 3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:37:50) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits", or "license" for more information.
+>>>
+```
+
+That's it! You're ready to go.
+
+<img class="img-fluid" src="{{ site.url }}/assets/images/windows/powershell.png" alt="Powershell">
+
+## Next Steps
+If you'd like to learn more about Python, the book [Python Crash Course](https://amzn.to/2okggMH) is a great resource.
+
+<!-- IDLE? VSCode? -->
