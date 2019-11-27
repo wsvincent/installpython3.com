@@ -7,26 +7,25 @@ categories:
 
 # Install Python 3 on MacOS
 
-This short guide demonstrates how to install the latest version of Python 3 on a MacOS computer.
-
 Historically MacOS came preinstalled with Python 2, however starting with [Mac 10.15](https://developer.apple.com/documentation/macos_release_notes/macos_catalina_10_15_beta_10_release_notes) (*released in October 2019*) this is no longer the case. And since [Python 2 will no longer be officially supported](https://www.python.org/dev/peps/pep-0373/) as of January 1, 2020, you should really use Python 3 instead.
 
-There are multiple ways to install Python 3 but the easiest--and most popular--approach is to use the package manager [HomeBrew](https://brew.sh).
+There are multiple ways to install Python 3 on a MacOS computer. The official Python website even recommends [downloading it directly](https://www.python.org/downloads/), however this approach can cause confusion around PATH variables, updates, and uninstalls. A better approach, in my opinion, is to instead use the popular package manager [HomeBrew](https://brew.sh) which automates updates and juggling multiple versions of Python on a computer. 
 
 ## Is Python 3 already installed?
 
 Before we start, make sure Python 3 isn't already installed on your computer. Open up the command line via the [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)) application which is located at `Applications -> Utilities -> Terminal`.
 
-Then type the command `python --version` followed by the **Enter** key.
+Then type the command `python --version` followed by the **Enter** key to see the currently installed version of Python.
 
 ```
 $ python --version
 Python 2.7.17
 ```
 
-This is the currently installed version of Python on your Mac.
+**Note**: The dollar sign, (`$`), indicates user input. Everything *after* is intended to be typed by the user followed by the Enter key. Any output, such as `Python 2.7.17` in this case, does not have a dollar sign in front.
+In short: don't type `$` before your commands!
 
-It's possible that Python 3 may have been installed as `python3`. Run this command to check:
+It's possible that Python 3 may have already been installed as `python3`. Run the command `python3 --version` to check:
 
 ```
 $ python3 --version

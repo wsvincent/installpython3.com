@@ -58,14 +58,14 @@ There are two ways to access Python now: via the command line or IDLE. The comma
 Once open, type `Python --version` to confirm Python 3.8 is installed.
 
 ```
-$ Python --version
+Python --version
 Python 3.8.0
 ```
 
 And then type `python` and **Return** to open the command line Python shell.
 
 ```
-$ python
+python
 Python 3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:37:50) [MSC v.1916 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits", or "license" for more information.
 >>>
