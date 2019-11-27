@@ -26,6 +26,13 @@ Python 2.7.17
 
 This is the currently installed version of Python on your Mac.
 
+It's possible that Python 3 may have been installed as `python3`. Run this command to check:
+
+```
+$ python3 --version
+Python 3.6.8
+```
+
 ## Install XCode
 
 The first step for Python 3 is to install Apple's [Xcode](https://developer.apple.com/xcode/) program which is necessary for iOS development as well as most programming tasks. We will use XCode to install HomeBrew.
