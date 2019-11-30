@@ -76,6 +76,6 @@ That's it! You're ready to go.
 <img class="img-fluid" src="{{ site.url }}/assets/images/windows/powershell.png" alt="Powershell">
 
 ## Next Steps
-If you'd like to learn more about Python, the book [Python Crash Course](https://amzn.to/2okggMH) is a great resource.
+If you'd like to learn more about Python, the book [Python Crash Course](https://amzn.to/2okggMH) is a great resource. Or if you'd like to learn web development with Python, check out [Django for Beginners](https://djangoforbeginners.com).
 
 <!-- IDLE? VSCode? -->
