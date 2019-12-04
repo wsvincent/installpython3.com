@@ -12,7 +12,7 @@ layout: home
 
 <div class="container">
   <div class="card-deck mb-6 text-center">
-    <div class="card mb-6 shadow-sm">
+    <div class="card mb-4 shadow-sm">
       <a href="{{ site.baseurl }}{% post_url/2010-01-01-windows %}">
         <div class="card-header">
           <h4 class="my-0 font-weight-normal">Windows</h4>
@@ -32,16 +32,16 @@ layout: home
         </div>
       </a>
     </div>
-    <!-- <div class="card mb-4 shadow-sm">
-      <a href="{{ site.baseurl }}{% post_url/2010-01-01-linux %}">
+    <div class="card mb-4 shadow-sm">
+      <a href="{{ site.baseurl }}{% post_url/2010-01-01-chromebook %}">
         <div class="card-header">
-          <h4 class="my-0 font-weight-normal">Linux</h4>
+          <h4 class="my-0 font-weight-normal">Chromebook</h4>
         </div>
         <div class="card-body">
-          <img src="assets/images/tux.svg.png" class="img-fluid">
+          <img src="assets/images/chrome.svg.png" class="img-fluid">
         </div>
+        <p>Coming soon...</p>
       </a>
-      <p>Coming soon...</p>
-    </div> -->
+    </div>
   </div>
 </div>
