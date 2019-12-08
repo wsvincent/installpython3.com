@@ -40,7 +40,6 @@ layout: home
         <div class="card-body">
           <img src="assets/images/chrome.svg.png" class="img-fluid">
         </div>
-        <p>Coming soon...</p>
       </a>
     </div>
   </div>
