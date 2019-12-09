@@ -1,6 +1,7 @@
 ---
 layout: page
-title:  "Linux"
+title:  "InstallPython3.com | Linux"
+description: "How to install Python 3 on a Linux computer"
 date:   2019-08-06 08:53:27 -0500
 categories:
 ---

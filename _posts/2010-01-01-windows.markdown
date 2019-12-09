@@ -1,6 +1,7 @@
 ---
 layout: page
-title:  "Windows"
+title:  "InstallPython3.com | Windows"
+description: "How to install Python 3 on a Windows computer"
 date:   2019-08-06 08:53:27 -0500
 categories:
 ---

@@ -1,13 +1,12 @@
 ---
 layout: page
-title:  "Chromebook"
+title:  "InstallPython3.com | Chromebook"
+description: "How to install Python 3 on a Chromebook"
 date:   2019-08-06 08:53:27 -0500
 categories:
 ---
 
 # Chromebook
-
-*Images coming soon...*
 
 A Chromebook runs [ChromeOS](https://en.wikipedia.org/wiki/Chrome_OS) as its operating system and historically running anything other than a web app--such as Python--was challenging.
 
