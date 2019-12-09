@@ -26,12 +26,7 @@ Python 2.7.17
 **Note**: The dollar sign, (`$`), indicates user input. Everything *after* is intended to be typed by the user followed by the Enter key. Any output, such as `Python 2.7.17` in this case, does not have a dollar sign in front.
 In short: don't type `$` before your commands!
 
-It's possible that Python 3 may have already been installed as `python3`. Run the command `python3 --version` to check:
-
-```
-$ python3 --version
-Python 3.6.8
-```
+It's possible that Python 3 may have already been installed as `python3`. Run the command `python3 --version` to check, however most likely this will throw an error. 
 
 ## Install XCode
 
