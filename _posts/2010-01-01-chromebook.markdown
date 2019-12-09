@@ -79,4 +79,4 @@ $ python
 ```
 
 ## Next Steps
-If you'd like to learn more about Python, the book [Python Crash Course](https://amzn.to/2okggMH) is a great resource. Or if you'd like to learn web development with Python, check out [Django for Beginners](https://djangoforbeginners.com).
+To learn more about Python, the book [Python Crash Course](https://amzn.to/2okggMH) is a great resource. For web development with Python, check out [Django for Beginners](https://djangoforbeginners.com).

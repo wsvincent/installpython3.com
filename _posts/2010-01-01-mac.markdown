@@ -9,7 +9,7 @@ categories:
 
 Historically MacOS came preinstalled with Python 2, however starting with [Mac 10.15](https://developer.apple.com/documentation/macos_release_notes/macos_catalina_10_15_beta_10_release_notes) (*released in October 2019*) this is no longer the case. And since [Python 2 will no longer be officially supported](https://www.python.org/dev/peps/pep-0373/) as of January 1, 2020, you should really use Python 3 instead.
 
-There are multiple ways to install Python 3 on a MacOS computer. The official Python website even recommends [downloading it directly](https://www.python.org/downloads/), however this approach can cause confusion around PATH variables, updates, and uninstalls. A better approach, in my opinion, is to instead use the popular package manager [Homebrew](https://brew.sh) which automates updates and juggling multiple versions of Python on a computer. 
+There are multiple ways to install Python 3 on a MacOS computer. The official Python website even recommends [downloading it directly](https://www.python.org/downloads/), however this approach can cause confusion around PATH variables, updates, and uninstalls. A better approach, in my opinion, is to instead use the popular package manager [Homebrew](https://brew.sh) which automates updates and juggling multiple versions of Python on a computer.
 
 ## Is Python 3 already installed?
 
@@ -146,4 +146,4 @@ $
 The lack of parentheses confirms the virtual environment is no longer active.
 
 ## Next Steps
-If you'd like to learn more about Python, the book [Python Crash Course](https://amzn.to/2okggMH) is a great resource. Or if you'd like to learn web development with Python, check out [Django for Beginners](https://djangoforbeginners.com).
+To learn more about Python, the book [Python Crash Course](https://amzn.to/2okggMH) is a great resource. For web development with Python, check out [Django for Beginners](https://djangoforbeginners.com).

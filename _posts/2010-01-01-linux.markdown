@@ -5,7 +5,41 @@ date:   2019-08-06 08:53:27 -0500
 categories:
 ---
 
-<h1>Linux</h1>
+# Linux
 
-Coming soon...
-<!-- https://ehmatthes.github.io/pcc_2e/setup_instructions/linux/ -->
+Python is usually installed by default on most modern Linux systems. To check what your currently have, open a terminal and run the following command (note the dollar sign `$` is the beginning of the prompt and should not be included!):
+
+```
+$ python --version
+Python 3.7.5
+```
+
+If you see a version of Python starting with a 2, such as `Python 2.7.10`, then try the same command using `pyhton3` instead of `python`:
+
+```
+$ python3 --version
+Python 3.7.5
+```
+
+The latest version of Python is 3.8 (as of this writing) but generally 3.6+ will provide modern features, such as f-strings and async/await, that are widely used.
+
+## Install Python 3.7
+There are many ways to install Python but one of the simplest is to use [deadsnakes](https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa).
+
+Within your terminal enter the following three commands:
+
+```
+$ sudo add-apt-repository ppa:deadsnakes/ppa
+$ sudo apt-get update
+$ sudo apt install python3.7
+```
+
+This will install Python 3.7 and a new Python session can be started by typing `python3.7` from the terminal:
+
+```
+$ python3.7
+>>>
+```
+
+## Next Steps
+To learn more about Python, the book [Python Crash Course](https://amzn.to/2okggMH) is a great resource. For web development with Python, check out [Django for Beginners](https://djangoforbeginners.com).
