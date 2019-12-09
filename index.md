@@ -32,8 +32,6 @@ layout: home
         </div>
       </a>
     </div>
-  </div>
-  <div class="card-deck mb-6 text-center">
     <div class="card mb-4 shadow-sm">
       <a href="{{ site.baseurl }}{% post_url/2010-01-01-linux %}">
         <div class="card-header">
