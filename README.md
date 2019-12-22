@@ -1,10 +1,8 @@
 # InstallPython3.com
 
-This is a free, open-source guide to installing Python 3 on a new computer. The goal is not to be a comprehensive resource on the multiple ways to install both Python and configure virtual environments. It is to provide the simplest, workable way for a beginner to start with Python.
+This is a free, open-source guide to installing Python 3 on a new computer. While there are multiple approaches, the goal of this site is to provide **one** accurate, easy-to-use solution. It is not to overwhelm a beginner.
 
-If you disagree with a recommended approach, please submit an **Issue**. I'm very eager to discuss the relative merits of different approaches but the goal is to recommend **one** approach to newbies, not overwhelm them.
-
-PRs are welcome for areas--like Linux or Chromebook--not currently covered.
+If you disagree with a recommended approach, please submit an **Issue**. I'm very eager to discuss the relative merits of different approaches as they often do change over time.
 
 ## Local Setup
 
