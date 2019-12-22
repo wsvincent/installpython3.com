@@ -96,7 +96,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 By default, Python packages are installed globally on your computer in a single directory. This can cause major problems when working on multiple Python projects!
 
-For example, image you have *Project A* that relies upon Django 1.11 whereas *Project B* uses Django 2.2. If you naively installed Django on your computer, only the latest install would be present and available in that single directory. Then consider that most Python projects rely on multiple packages that each have their own version numbers. There's simply no way to keep everything straight and not inadvertently break things with the wrong package versions.
+For example, imagine you have *Project A* that relies upon Django 1.11 whereas *Project B* uses Django 2.2. If you naively installed Django on your computer, only the latest install would be present and available in that single directory. Then consider that most Python projects rely on multiple packages that each have their own version numbers. There's simply no way to keep everything straight and not inadvertently break things with the wrong package versions.
 
 The solution is to use a **virtual environment** for each project, an isolated directory, rather than installing Python packages globally.
 
