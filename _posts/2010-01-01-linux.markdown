@@ -15,7 +15,7 @@ $ python --version
 Python 3.7.5
 ```
 
-If you see a version of Python starting with a 2, such as `Python 2.7.10`, then try the same command using `pyhton3` instead of `python`:
+If you see a version of Python starting with a 2, such as `Python 2.7.10`, then try the same command using `python3` instead of `python`:
 
 ```
 $ python3 --version
