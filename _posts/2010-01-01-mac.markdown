@@ -26,7 +26,7 @@ Python 2.7.17
 **Note**: The dollar sign, (`$`), indicates user input. Everything *after* is intended to be typed by the user followed by the Enter key. Any output, such as `Python 2.7.17` in this case, does not have a dollar sign in front.
 In short: don't type `$` before your commands!
 
-It's possible that Python 3 may have already been installed as `python3`. Run the command `python3 --version` to check, however most likely this will throw an error. 
+It's possible that Python 3 may have already been installed as `python3`. Run the command `python3 --version` to check, however most likely this will throw an error.
 
 ## Install XCode
 
@@ -67,15 +67,15 @@ To confirm which version of Python 3 was installed, run the following command in
 
 ```
 $ python3 --version
-Python 3.7.5
+Python 3.7.7
 ```
 
 Finally, to run our new version of Python 3 open an interactive shall by typing `python3` within **Terminal**:
 
 ```
 $ python3
-Python 3.7.5 (default, Nov  1 2019, 02:16:23)
-[Clang 11.0.0 (clang-1100.0.33.8)] on darwin
+Python 3.7.7 (default, Mar 10 2020, 02:16:23)
+[Clang 11.0.0 (clang-1100.0.33.17)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
@@ -86,8 +86,8 @@ Note that it is still possible to run Python 2 by simply typing `python`:
 
 ```
 $ python
-Python 2.7.17 (default, Oct 24 2019, 12:57:38)
-[GCC 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.8)] on darwin
+Python 2.7.17 (default, Dec 23 2019, 21:25:33)
+[GCC 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.16)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
@@ -142,4 +142,4 @@ $
 The lack of parentheses confirms the virtual environment is no longer active.
 
 ## Next Steps
-To learn more about Python, the book [Python Crash Course](https://amzn.to/2okggMH) is a great resource. For web development with Python, check out [Django for Beginners](https://djangoforbeginners.com).
+To learn more about Python, the books [Python Crash Course](https://amzn.to/2okggMH) and [Automate the Boring Stuff](https://amzn.to/366CebJ) are great resources. For free tutorials on web development with Python check out [Learn Django](https://learndjango.com).
