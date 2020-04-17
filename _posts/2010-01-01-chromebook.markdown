@@ -59,10 +59,10 @@ Confirm that the Miniconda installer is in your current directory by typing `ls`
 
 <img class="img-fluid" src="{{ site.url }}/assets/images/chromebook/ls.png" alt="ls">
 
-Then to install it run the command `sudo bash Miniconda3-latest-Linux-xs86_64.sh`.
+Then to install it run the command `sudo bash Miniconda3-latest-Linux-x86_64.sh`.
 
 ```
-$ sudo bash Miniconda3-latest-Linux-xs86_64.sh
+$ sudo bash Miniconda3-latest-Linux-x86_64.sh
 ```
 
 There will be a prompt to review the license. Click Enter to continue:
