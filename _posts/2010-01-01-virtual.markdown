@@ -1,7 +1,9 @@
+---
 layout: page
 title:  "Virtual Environments"
 date:   2019-08-06 08:53:27 -0500
 categories:
+sitemap: false
 ---
 
 ### Virtual Environments
