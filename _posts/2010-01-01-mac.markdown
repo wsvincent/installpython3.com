@@ -4,6 +4,7 @@ title:  "InstallPython3.com | Mac"
 description: "How to install Python 3 on a Mac computer"
 date:   2019-08-06 08:53:27 -0500
 categories:
+sitemap: true
 ---
 
 # Install Python 3 on MacOS
@@ -34,7 +35,7 @@ The first step for Python 3 is to install Apple's [Xcode](https://developer.appl
 
 In your **Terminal** app, run the following command to install XCode and its command-line tools:
 
-```
+```sh
 $ xcode-select --install
 ```
 
@@ -44,13 +45,13 @@ It is a large program so this make take a while to download. Make sure to click 
 
 Next install Homebrew by copy/pasting the following command into **Terminal** and then type **Enter**:
 
-```
+```sh
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 To confirm Homebrew installed correctly, run this command:
 
-```
+```sh
 $ brew doctor
 Your system is ready to brew.
 ```
@@ -59,20 +60,20 @@ Your system is ready to brew.
 
 Now we can install the latest version of Python 3. Type the following command into **Terminal** and press **Enter**:
 
-```
+```sh
 $ brew install python3
 ```
 
 To confirm which version of Python 3 was installed, run the following command in **Terminal**:
 
-```
+```sh
 $ python3 --version
 Python 3.7.7
 ```
 
 Finally, to run our new version of Python 3 open an interactive shall by typing `python3` within **Terminal**:
 
-```
+```sh
 $ python3
 Python 3.7.7 (default, Mar 10 2020, 02:16:23)
 [Clang 11.0.0 (clang-1100.0.33.17)] on darwin
@@ -84,7 +85,7 @@ To exit the Python 3 interactive shell, you can type either `exit()` and then **
 
 Note that it is still possible to run Python 2 by simply typing `python`:
 
-```
+```sh
 $ python
 Python 2.7.17 (default, Dec 23 2019, 21:25:33)
 [GCC 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.16)] on darwin
@@ -107,13 +108,13 @@ Confusingly, there are multiple tools for virtual environments in Python:
 
 On MacOS we can install Pipenv with Homebrew.
 
-```
+```sh
 $ brew install pipenv
 ```
 
 Then use Pipenv for any Python packages you wish to install. For example, if you want to work with Django 2.2.6, first create a dedicated directory for it on your computer such as in a `django` directory on your Desktop.
 
-```
+```sh
 $ cd ~/Desktop
 $ mkdir django
 $ cd django
@@ -121,20 +122,20 @@ $ cd django
 
 Then install Django within that directory.
 
-```
+```sh
 $ pipenv install django==2.2.7
 ```
 
 If you look within the directory there are now two new files, `Pipfile` and `Pipfile.lock`, which Pipenv uses. To activate the virtual environment type `pipenv shell`.
 
-```
+```sh
 $ pipenv shell
 (django) $
 ```
 
 There will now be parentheses around the name of your current directory which indicates the virtual environment is activate. To exit the virtual environment, type `exit`.
 
-```
+```sh
 (django) $ exit
 $
 ```

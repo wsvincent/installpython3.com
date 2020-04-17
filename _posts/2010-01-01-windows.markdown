@@ -4,6 +4,7 @@ title:  "InstallPython3.com | Windows"
 description: "How to install Python 3 on a Windows computer"
 date:   2019-08-06 08:53:27 -0500
 categories:
+sitemap: true
 ---
 
 # Windows
@@ -58,14 +59,14 @@ There are two ways to access Python now: via the command line or IDLE. The comma
 
 Once open, type `Python --version` to confirm Python 3.8 is installed.
 
-```
+```sh
 Python --version
 Python 3.8.0
 ```
 
 And then type `python` and **Return** to open the command line Python shell.
 
-```
+```sh
 python
 Python 3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:37:50) [MSC v.1916 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits", or "license" for more information.

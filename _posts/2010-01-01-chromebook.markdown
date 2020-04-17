@@ -4,6 +4,7 @@ title:  "InstallPython3.com | Chromebook"
 description: "How to install Python 3 on a Chromebook"
 date:   2019-08-06 08:53:27 -0500
 categories:
+sitemap: true
 ---
 
 # Chromebook
@@ -61,7 +62,7 @@ Confirm that the Miniconda installer is in your current directory by typing `ls`
 
 Then to install it run the command `sudo bash Miniconda3-latest-Linux-x86_64.sh`.
 
-```
+```sh
 $ sudo bash Miniconda3-latest-Linux-x86_64.sh
 ```
 
@@ -87,7 +88,7 @@ And we're done! The instructions will note that closing and re-opening the Termi
 
 Set the proper permissions for the directory so that `conda` can add/remove software packages. Make sure to replace my username, `williamsvincent`, with yours which is found at the beginning of the prompt before `@penguin`. Also note that if you did not use the
 
-```
+```sh
 $ sudo chown -R williamsvincent /opt/miniconda3
 ```
 
@@ -102,7 +103,7 @@ To run Conda--and by extension Python--enter a base environment by typing `sourc
 
 The new parentheses at the start of the prompt called `(base)` confirm the environment is active. To confirm the installed Python version, type `python --version`.
 
-```
+```sh
 $ python --version
 Python 3.7.4
 ```

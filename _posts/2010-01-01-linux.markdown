@@ -4,20 +4,21 @@ title:  "InstallPython3.com | Linux"
 description: "How to install Python 3 on a Linux computer"
 date:   2019-08-06 08:53:27 -0500
 categories:
+sitemap: true
 ---
 
 # Linux
 
 Python is usually installed by default on most modern Linux systems. To check what your currently have, open a terminal and run the following command (note the dollar sign `$` is the beginning of the prompt and should not be included!):
 
-```
+```sh
 $ python --version
 Python 3.7.5
 ```
 
 If you see a version of Python starting with a 2, such as `Python 2.7.10`, then try the same command using `python3` instead of `python`:
 
-```
+```sh
 $ python3 --version
 Python 3.7.5
 ```
@@ -29,7 +30,7 @@ There are many ways to install Python but one of the simplest is to use [deadsna
 
 Within your terminal enter the following three commands:
 
-```
+```sh
 $ sudo add-apt-repository ppa:deadsnakes/ppa
 $ sudo apt-get update
 $ sudo apt install python3.7
@@ -37,7 +38,7 @@ $ sudo apt install python3.7
 
 This will install Python 3.7 and a new Python session can be started by typing `python3.7` from the terminal:
 
-```
+```sh
 $ python3.7
 >>>
 ```
