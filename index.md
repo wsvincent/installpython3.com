@@ -55,4 +55,9 @@ description: How to install Python 3 on Mac, Windows, Linux, or Chromebook
       </a>
     </div>
   </div>
+  <br />
+  <h2>Why This Guide?</h2>
+  <p>There are multiple ways to install Python on a computer. The guides here for each operating system are up-to-date, allow for upgrades, and make it possible to install multiple versions of Python on a computer as needed.</p>
+
+  <p>Unfortunately, many newcomers unsuccessfully try several different approaches, none of which work. Often the culprit is a <a href="https://en.wikipedia.org/wiki/PATH_(variable)">PATH variable</a> improperly configured, so that when you type `python` on the command line, it doesn't refer to the proper Python installation.</p>
 </div>
