@@ -1,0 +1,74 @@
+---
+layout: page
+title:  "InstallPython3.com | Docker"
+description: "How to install Python 3 on Docker"
+date:   2019-08-06 08:53:27 -0500
+categories:
+sitemap: true
+---
+
+# Docker
+[Docker](https://www.docker.com/) is a way to isolate an entire operating system via Linux containers. This approach is popular among many professional software developers because it promises a consistent and shareable developer environment, that can be run either locally on any computer or deployed to any server. With Docker, it no longer matters what your local operating system is: everything is created from scratch within an isolated Linux container.
+
+You also don't have to worry about virtual environments, which is the standard way to isolate Python packages on a local computer. Again, everything is within a Docker container so adding a virtual environment is redundant.
+
+## Install Docker
+The first step is to sign up for a free account on [Docker Hub](https://hub.docker.com/signup) and then install the Docker desktop app on your local machine:
+
+* [Docker for Mac](https://hub.docker.com/editions/community/docker-ce-desktop-mac)
+* [Docker for Windows](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+* [Docker for Linux](https://docs.docker.com/install/)
+
+This download might take some time to download as it is a big file. Once Docker is done installing, confirm the correct version is running by typing the command docker --version on the command line. It should be at least version 19.
+
+```sh
+$ docker --version
+Docker version 19.03.8, build afacb8b
+```
+
+Docker is typically used with an additional tool, [Docker Compose](https://docs.docker.com/compose/), to help automate commands. Docker Compose is included with Mac and Windows downloads but if you are on Linux you will need to add it manually. You can do this by running the command `sudo pip install docker-compose` after your Docker installation is complete.
+
+To confirm Docker Compose is correctly installed run the command `docker-compose --version`.
+
+```sh
+$ docker-compose --version
+docker-compose version 1.25.4, build 8d51620a
+```
+
+## Docker "Hello, World"
+Docker ships with its own “Hello, World” image that is a helpful first step to run. On the command line type `docker run hello-world`. This will download an official Docker image and then run it within a container. We’ll discuss both images and containers in a moment.
+
+```sh
+$ docker run hello-world
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+0e03bdcc26d7: Pull complete
+Digest: sha256:8e3114318a995a1ee497790535e7b88365222a21771ae7e53687ad76563e8e76
+Status: Downloaded newer image for hello-world:latest
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+```
+
+Ok, Docker is successfully and installed and running.
+
+## Images, Containers, and Docker Host
+A Docker **image** is a snapshot in time of what a project contains. It is represented by a `Dockerfile` and is literally a list of instructions that must be built. A Docker container is a running instance of an image. To continue our apartment analogy from earlier, the image is the blueprint or set of plans for the apartment; the container is the actual, fully-built building.
