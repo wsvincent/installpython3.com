@@ -86,7 +86,7 @@ And we're done! The instructions will note that closing and re-opening the Termi
 
 <img class="img-fluid" src="{{ site.url }}/assets/images/chromebook/install_done.png" alt="Install Done">
 
-Set the proper permissions for the directory so that `conda` can add/remove software packages. Make sure to replace my username, `williamsvincent`, with yours which is found at the beginning of the prompt before `@penguin`. Also note that if you did not use the
+Set the proper permissions for the directory so that `conda` can add/remove software packages. Make sure to replace my username, `williamsvincent`, with yours which is found at the beginning of the prompt before `@penguin`. Also note that if you did not use the `/opt/miniconda3` path for installing your miniconda, but rather deferred to the default `root/miniconda3`, you will have to replace `opt` with `root` in the command below.
 
 ```sh
 $ sudo chown -R williamsvincent /opt/miniconda3
