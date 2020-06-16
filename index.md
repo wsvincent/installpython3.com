@@ -54,20 +54,8 @@ description: How to install Python 3 on Mac, Windows, Linux, or Chromebook
         </div>
       </a>
     </div>
-    <!-- <div class="card mb-4 shadow-sm">
-      <a href="{{ site.baseurl }}{% post_url/2010-01-01-docker %}">
-        <div class="card-header">
-          <h4 class="my-0 font-weight-normal">Docker</h4>
-        </div>
-        <div class="card-body">
-          <img src="assets/images/docker.svg.png" class="img-fluid">
-        </div>
-      </a>
-    </div> -->
   </div>
   <br />
   <h2>Why This Guide?</h2>
-  <p>There are multiple ways to install Python on a computer. The guides here for each operating system are up-to-date, allow for upgrades, and make it possible to install multiple versions of Python on a computer as needed.</p>
-
-  <p>Unfortunately, many newcomers unsuccessfully try several different approaches, none of which work. Often the culprit is a <a href="https://en.wikipedia.org/wiki/PATH_(variable)">PATH variable</a> improperly configured, so that when you type `python` on the command line, it doesn't refer to the proper Python installation.</p>
+  <p>There are multiple ways to install Python on a computer. Unfortunately, the advice on the <a href="https://www.python.org/downloads/">official Python downloads page</a>, is the wrong approach for most programmers. It does not allow for easy updates to future versions of Python. And it makes switching between multiple versions of Python (for example, 3.5 vs 3.8) more challenging than it needs to be.</p>
 </div>
