@@ -20,7 +20,7 @@ description: How to install Python 3 on Mac, Windows, Linux, or Chromebook
           <h4 class="my-0 font-weight-normal">Windows</h4>
         </div>
         <div class="card-body">
-          <img src="assets/images/windows.svg.png" class="img-fluid">
+          <img src="assets/images/windows.svg.png" class="img-fluid" alt="Windows logo">
         </div>
       </a>
     </div>
@@ -30,7 +30,7 @@ description: How to install Python 3 on Mac, Windows, Linux, or Chromebook
           <h4 class="my-0 font-weight-normal">Mac</h4>
         </div>
         <div class="card-body">
-          <img src="assets/images/apple.svg.png" class="img-fluid">
+          <img src="assets/images/apple.svg.png" class="img-fluid" alt="Apple logo">
         </div>
       </a>
     </div>
@@ -40,7 +40,7 @@ description: How to install Python 3 on Mac, Windows, Linux, or Chromebook
           <h4 class="my-0 font-weight-normal">Linux</h4>
         </div>
         <div class="card-body">
-          <img src="assets/images/tux.svg.png" class="img-fluid">
+          <img src="assets/images/tux.svg.png" class="img-fluid" alt="Linux logo">
         </div>
       </a>
     </div>
@@ -50,7 +50,7 @@ description: How to install Python 3 on Mac, Windows, Linux, or Chromebook
           <h4 class="my-0 font-weight-normal">Chromebook</h4>
         </div>
         <div class="card-body">
-          <img src="assets/images/chrome.svg.png" class="img-fluid">
+          <img src="assets/images/chrome.svg.png" class="img-fluid" alt="Chromebook logo">
         </div>
       </a>
     </div>

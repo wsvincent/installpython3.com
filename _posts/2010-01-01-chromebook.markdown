@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "InstallPython3.com | Chromebook"
-description: "How to install Python 3 on a Chromebook"
+description: "How to install Python 3 properly on a Chromebook"
 date:   2019-08-06 08:53:27 -0500
 categories:
 sitemap: true
