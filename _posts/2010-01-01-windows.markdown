@@ -57,10 +57,10 @@ There are two ways to access Python now: via the command line or IDLE. The comma
 
 <img class="img-fluid" src="{{ site.url }}/assets/images/windows/start_menu_powershell.png" alt="Powershell Link">
 
-Once open, type `Python --version` to confirm Python 3.8 is installed.
+Once open, type `python --version` to confirm Python 3.8 is installed.
 
 ```sh
-Python --version
+python --version
 Python 3.8.0
 ```
 
