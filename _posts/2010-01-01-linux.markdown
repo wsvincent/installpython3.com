@@ -13,19 +13,19 @@ Python is usually installed by default on most modern Linux systems. To check wh
 
 ```sh
 $ python --version
-Python 3.7.5
+Python 3.8.5
 ```
 
 If you see a version of Python starting with a 2, such as `Python 2.7.10`, then try the same command using `python3` instead of `python`:
 
 ```sh
 $ python3 --version
-Python 3.7.5
+Python 3.8.5
 ```
 
 The latest version of Python is 3.8 (as of this writing) but generally 3.6+ will provide modern features, such as f-strings and async/await, that are widely used.
 
-## Install Python 3.7
+## Install Python 3.8
 There are many ways to install Python but one of the simplest is to use [deadsnakes](https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa).
 
 Within your terminal enter the following three commands:
@@ -33,13 +33,13 @@ Within your terminal enter the following three commands:
 ```sh
 $ sudo add-apt-repository ppa:deadsnakes/ppa
 $ sudo apt-get update
-$ sudo apt install python3.7
+$ sudo apt install python3.8
 ```
 
-This will install Python 3.7 and a new Python session can be started by typing `python3.7` from the terminal:
+This will install Python 3.8 and a new Python session can be started by typing `python3.8` from the terminal:
 
 ```sh
-$ python3.7
+$ python3.8
 >>>
 ```
 
