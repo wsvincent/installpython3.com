@@ -34,7 +34,7 @@ Follow the prompts and at the end a Terminal window will open. You can run Linux
 
 [MiniConda](https://docs.conda.io/en/latest/miniconda.html) is a free distribution of Python that works on Linux computers. It provides a basic implementation of Python and the ability to add additional packages manually as needed. Since disk space is at a premium, we will use this as opposed to Anaconda, its full-featured cousin, which includes many Python packages like numpy, scipy, and ipython notebook automatically.
 
-Navigate to the [MiniConda](https://docs.conda.io/en/latest/miniconda.html) site, scroll down to the "Linux installers" section, and click on the link for 64-bit version of Python 3.7.
+Navigate to the [MiniConda](https://docs.conda.io/en/latest/miniconda.html) site, scroll down to the "Linux installers" section, and click on the link for 64-bit version of Python 3.8.
 
 <img class="img-fluid" src="{{ site.url }}/assets/images/chromebook/64_bit_download.png" alt="64 Bit Download">
 
@@ -105,7 +105,7 @@ The new parentheses at the start of the prompt called `(base)` confirm the envir
 
 ```sh
 $ python --version
-Python 3.7.4
+Python 3.8.5
 ```
 
 <img class="img-fluid" src="{{ site.url }}/assets/images/chromebook/python_version.png" alt="Python Version">

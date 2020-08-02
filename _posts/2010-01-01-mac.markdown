@@ -68,15 +68,15 @@ To confirm which version of Python 3 was installed, run the following command in
 
 ```sh
 $ python3 --version
-Python 3.7.7
+Python 3.8.5
 ```
 
 Finally, to run our new version of Python 3 open an interactive shall by typing `python3` within **Terminal**:
 
 ```sh
 $ python3
-Python 3.7.7 (default, Mar 10 2020, 02:16:23)
-[Clang 11.0.0 (clang-1100.0.33.17)] on darwin
+Python 3.8.5 (default, Jul 21 2020, 10:48:26)
+[Clang 11.0.3 (clang-1103.0.32.62)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
