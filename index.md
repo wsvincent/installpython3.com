@@ -15,7 +15,7 @@ description: How to install Python 3 on Mac, Windows, Linux, or Chromebook
 <div class="container">
   <div class="card-deck mb-6 text-center">
     <div class="card mb-4 shadow-sm">
-      <a href="{{ site.baseurl }}{% post_url/2010-01-01-windows %}">
+      <a href="{% post_url/2010-01-01-windows %}">
         <div class="card-header">
           <h4 class="my-0 font-weight-normal">Windows</h4>
         </div>
@@ -25,7 +25,7 @@ description: How to install Python 3 on Mac, Windows, Linux, or Chromebook
       </a>
     </div>
     <div class="card mb-4 shadow-sm">
-      <a href="{{ site.baseurl }}{% post_url/2010-01-01-mac %}">
+      <a href="{% post_url/2010-01-01-mac %}">
         <div class="card-header">
           <h4 class="my-0 font-weight-normal">Mac</h4>
         </div>
@@ -35,7 +35,7 @@ description: How to install Python 3 on Mac, Windows, Linux, or Chromebook
       </a>
     </div>
     <div class="card mb-4 shadow-sm">
-      <a href="{{ site.baseurl }}{% post_url/2010-01-01-linux %}">
+      <a href="{% post_url/2010-01-01-linux %}">
         <div class="card-header">
           <h4 class="my-0 font-weight-normal">Linux</h4>
         </div>
@@ -45,7 +45,7 @@ description: How to install Python 3 on Mac, Windows, Linux, or Chromebook
       </a>
     </div>
     <div class="card mb-4 shadow-sm">
-      <a href="{{ site.baseurl }}{% post_url/2010-01-01-chromebook %}">
+      <a href="{% post_url/2010-01-01-chromebook %}">
         <div class="card-header">
           <h4 class="my-0 font-weight-normal">Chromebook</h4>
         </div>
