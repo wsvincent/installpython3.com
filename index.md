@@ -57,5 +57,13 @@ description: How to install Python 3 on Mac, Windows, Linux, or Chromebook
   </div>
   <br />
   <h2>Why This Guide?</h2>
-  <p>There are multiple ways to install Python on a computer. Unfortunately, the advice on the <a href="https://www.python.org/downloads/">official Python downloads page</a>, is the wrong approach for most programmers. It does not allow for easy updates to future versions of Python. And it makes switching between multiple versions of Python (for example, 3.5 vs 3.8) more challenging than it needs to be.</p>
+  <br/>
+  <div class="xkcd-img">
+    <a href="https://xkcd.com/1987/" target="\_blank">
+      <img src="https://imgs.xkcd.com/comics/python_environment.png">
+    </a>
+  </div>
+  <br/>
+  <p><a href="https://xkcd.com/1987/" target="\blank">This XKCD comic</a> sums up the issue. In short, installing Python on a computer is a challenge for professional programmers and a nightmare for newcomers. It is easy if not inevitable to have multiple installs on a machine, a messed up PATH, and so on. Unfortunately, the advice on the <a href="https://www.python.org/downloads/">official Python downloads page</a> is, arguably, the wrong approach for most programmers. It does not allow for easy updates to future versions of Python. And it makes switching between multiple versions of Python (for example, 3.5 vs 3.8) more challenging than it needs to be.</p>
+  <p>If you are a professional programmer, I highly recommend reading the setup choices of <a href="https://jacobian.org/2019/nov/11/python-environment-2020/" target="\_blank">Jacob Kaplan-Moss, co-creator of Django</a>, which covers more advanced options like pyenv, pipx, Poetry, and so on.</p>
 </div>
