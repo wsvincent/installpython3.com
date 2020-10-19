@@ -116,4 +116,4 @@ And then to enter Python itself, simply type `python`.
 
 
 ## Next Steps
-To learn more about Python, the books [Python Crash Course](https://amzn.to/2okggMH) and [Automate the Boring Stuff](https://amzn.to/366CebJ) are great resources. For free tutorials on web development with Python check out [Learn Django](https://learndjango.com).
+To learn more about Python, the books [Python Crash Course](https://amzn.to/3dGYTRe) and [Automate the Boring Stuff](https://amzn.to/366CebJ) are great resources. For free tutorials on web development with Python check out [Learn Django](https://learndjango.com).
