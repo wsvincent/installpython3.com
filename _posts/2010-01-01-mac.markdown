@@ -112,7 +112,7 @@ On MacOS we can install Pipenv with Homebrew.
 $ brew install pipenv
 ```
 
-Then use Pipenv for any Python packages you wish to install. For example, if you want to work with Django 2.2.6, first create a dedicated directory for it on your computer such as in a `django` directory on your Desktop.
+Then use Pipenv for any Python packages you wish to install. For example, if you want to work with Django 3.1, first create a dedicated directory for it on your computer such as in a `django` directory on your Desktop.
 
 ```sh
 $ cd ~/Desktop
@@ -123,7 +123,7 @@ $ cd django
 Then install Django within that directory.
 
 ```sh
-$ pipenv install django==2.2.7
+$ pipenv install django~=3.1.0
 ```
 
 If you look within the directory there are now two new files, `Pipfile` and `Pipfile.lock`, which Pipenv uses. To activate the virtual environment type `pipenv shell`.
